@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c2e9d59-ee54-490e-bf96-5497f587844f/dgdd80h-c9ed117a-815e-4f0d-9758-b176d26c2462.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljMmU5ZDU5LWVlNTQtNDkwZS1iZjk2LTU0OTdmNTg3ODQ0ZlwvZGdkZDgwaC1jOWVkMTE3YS04MTVlLTRmMGQtOTc1OC1iMTc2ZDI2YzI0NjIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aafHyvc-txx8Fm_dH_FzNriCu4E9Aj7oElBbXJm89h8) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    color: aliceblue;
+    border: none;
+    
+    
+    
+    
+}
+.login-page .btn{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    
+    
+}
+.box{
+    background: transparent;
+    padding: 15px;
+    margin: 12px;
+    border: 0px solid rgb(39, 18, 134);
+    backdrop-filter: blur(20px);
+    
+}
+.login-page input{
+    background: transparent;
+    border-radius: 30px;
+    color: aliceblue;
+    
+}
+.login-page input::placeholder{
+    color: aliceblue;
+    padding: 10px;
+    margin: 8px;
+}
